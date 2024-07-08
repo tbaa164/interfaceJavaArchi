@@ -11,7 +11,6 @@ public class Login extends javax.swing.JFrame {
 
  
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -30,7 +29,7 @@ public class Login extends javax.swing.JFrame {
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("LOGIN");
+        setTitle("CONNEXION");
         setPreferredSize(new java.awt.Dimension(800, 500));
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
@@ -40,15 +39,15 @@ public class Login extends javax.swing.JFrame {
         Right.setBackground(new java.awt.Color(0, 102, 102));
         Right.setPreferredSize(new java.awt.Dimension(400, 500));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\Rahemet\\Documents\\NetBeansProjects\\LoginAndSignUp\\src\\Icon\\logo.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon("Login-SignUp-java-gui\\src\\Icon\\logo-ESPP.jpg")); 
 
-        jLabel6.setFont(new java.awt.Font("Showcard Gothic", 1, 24)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Showcard Gothic", 1, 24)); 
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setText("Company Name");
+        jLabel6.setText("Projet Archi");
 
-        jLabel7.setFont(new java.awt.Font("Segoe UI Light", 0, 14)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(204, 204, 204));
-        jLabel7.setText("copyright © company name All rights reserved");
+        jLabel7.setFont(new java.awt.Font("Segoe UI Light", 0, 20)); 
+        jLabel7.setForeground(new java.awt.Color(100, 204, 204));
+        jLabel7.setText("By Mor Talla Ba & Arona Ndiaye ");
 
         javax.swing.GroupLayout RightLayout = new javax.swing.GroupLayout(Right);
         Right.setLayout(RightLayout);
@@ -88,7 +87,7 @@ public class Login extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 102, 102));
-        jLabel1.setText("LOGIN");
+        jLabel1.setText("Connexion");
 
         jLabel2.setBackground(new java.awt.Color(102, 102, 102));
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -99,24 +98,19 @@ public class Login extends javax.swing.JFrame {
 
         jLabel3.setBackground(new java.awt.Color(102, 102, 102));
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel3.setText("Password");
+        jLabel3.setText("Mot de pass");
 
         jButton1.setBackground(new java.awt.Color(0, 102, 102));
         jButton1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Login");
 
-        jLabel4.setText("I don't have an account");
+        jLabel4.setText("Tu n'as pas encore de compte ??");
 
         jButton2.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 51, 51));
-        jButton2.setText("Sign Up");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
-
+        jButton2.setText("S'inscrire");
+      
         javax.swing.GroupLayout LeftLayout = new javax.swing.GroupLayout(Left);
         Left.setLayout(LeftLayout);
         LeftLayout.setHorizontalGroup(
@@ -186,14 +180,14 @@ public class Login extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    // private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         
-        SignUp SignUpFrame = new SignUp();
-        SignUpFrame.setVisible(true);
-        SignUpFrame.pack();
-        SignUpFrame.setLocationRelativeTo(null); 
-        this.dispose();
-    }//GEN-LAST:event_jButton2ActionPerformed
+    //     SignUp SignUpFrame = new SignUp();
+    //     SignUpFrame.setVisible(true);
+    //     SignUpFrame.pack();
+    //     SignUpFrame.setLocationRelativeTo(null); 
+    //     this.dispose();
+    // }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
